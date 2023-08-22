@@ -1,4 +1,24 @@
-/*
+class User {
+    constructor(name, email, birthdate, address, phone, cpf) {
+        this.name = name;
+        this.email = email;
+        this.birthdate = birthdate;
+        this.address = address;
+        this.phone = phone;
+        this.cpf = cpf;
+    }
+}
+
+class ListUser {
+    constructor() {
+        this.users = [];
+    }
+
+    addUser(user){
+        this.user.push(user);
+    }
+}
+
 getZodiacSign() {
     let birthdate = new Date(this.birthdate);
     let day = birthdate.getDate();
@@ -105,10 +125,3 @@ function sendErrorMsg(msg) {
         document.getElementById("error-msg").classList.add("hidden");
     }, 4000);
 }
-
-*/
-
-// how many functions are there? 12
-// how many classes are there? 2
-
-// Boa sorte!
